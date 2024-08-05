@@ -25,10 +25,6 @@ function displayRandomStrategy(){
         "Develop a personal brand. Use the same username and profile picture across platforms for recognition."
       ]
 
-      // read a json file
-    //   const sample = require('./strategy.json');
-    //   console.log(sample);
-
       // randomly produce a number that will represent the index
 
       let randomIndex = Math.floor(Math.random() * strategies.length)
